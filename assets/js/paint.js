@@ -3,8 +3,8 @@ function configureListeners() {
 
 
      for (var i = 0; i < images.length; i++) {        
-        images[i].addEventListener('mouseover', addOpacity);
-        images[i].addEventListener('mouseout', removeOpacity);   
+        images[i].id.addEventListener('mouseover', addOpacity);
+        images[i].id.addEventListener('mouseout', removeOpacity);   
     } 
 }
 
